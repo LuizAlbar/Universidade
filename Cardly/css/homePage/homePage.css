@@ -1,0 +1,275 @@
+@import url(cards.css);
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+.playwrite-ng-modern {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.ctn-father {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+
+
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+
+
+}
+
+/* Header */
+
+.header {
+
+    height: 35px;
+    background-color: a#ffffff;
+
+
+}
+
+.header-button {
+    display: grid;
+    place-items: center;
+
+}
+
+/* Father container buttons */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+
+}
+
+/* Middle Container Logo */
+.header-logo-container {
+    width: 40%;
+    display: grid;
+    place-items: center;
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 20px;
+
+
+}
+
+/* Side container */
+.header-dropdown-container,
+.header-chat-not-container {
+    width: 30%;
+
+}
+
+/* Buttons container */
+.header-chat-not-container {
+    display: flex;
+
+}
+
+/* Individual button container */
+.header-button {
+    width: 50%;
+}
+
+.hd-bell {
+    position: relative;
+
+}
+
+.bell-notifications {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+
+
+
+
+}
+
+/* Main */
+
+
+.main {
+    /* TESTE HEIGHT */
+    /* max-height: 100%; */
+    height: auto;
+    z-index: 0;
+}
+
+.feed-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+.feed-type {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 50px;
+
+}
+
+.feed {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.feed-splitter{
+    height: 30px;
+    background-color: transparent;
+}
+
+
+
+/* Main */
+/* Footer */
+
+/* Container Footer
+   Footer-Buttons
+   Footere-Splitter
+   ft Footer-button */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    height: 35px;
+
+}
+
+.footer-buttons {
+    display: flex;
+    height: 100%;
+
+}
+
+.footer-splitter {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.ft {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.homeIcon-button{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.homeIcon-button:hover{
+    cursor: pointer;
+}
+
+.bottom-space {
+    width: 100%;
+    height: 7vh;
+    background-color: transparent;
+    z-index: 0;
+
+}
+
+
+
+
+
+/* HEADER DROPDOWN */
+
+/* Container dropdown */
+.header-dropdown-container{
+    display: flex;
+    position: relative;
+    display: inline-block;
+  
+    
+
+}
+
+.header-dropdown-button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.header-dropdown-options{
+    background-color: rgb(245, 240, 240);
+    box-shadow: 1px 1px 4px #b1aeb3;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-height: 100vh;
+    width: 140px;
+    top: 0px;
+    left: 0;
+    
+
+}
+.list-options-dropdown{
+    height: 100vh;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-dropdown-container:hover .header-dropdown-options{
+    display: block;
+
+}

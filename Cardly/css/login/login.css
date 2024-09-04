@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    
+    }
+
+    
+
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+
+
+}
+
+
+
+/* CONTAINER HEADER */
+
+.ctn-header {
+    /* CONTAINER */
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.hd-logo{
+    width: 35%;
+}
+.hd-logo-img {
+    width: 100px;
+}
+
+.hd-switch-lang {
+    /* DIV */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    left: 1.5%;
+    
+    
+   
+
+}
+
+.language-selector {
+    /* SELECT */
+     
+   
+}
+
+
+.hd-container-btn {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+
+}
+.btn-top-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+
+.btn-top {
+    width: 90%;
+    background-color: #f5f5f5;
+    height: 40px;
+    border: 1px solid #d1cbcb;
+    border-radius: 16px;
+    box-shadow: -1px 1.5px 0 #b5aeae;
+    color: #3c0d4e;
+    font-family: "Paytone One", sans-serif;
+    font-size: 78%;
+    font-weight: 800;
+
+}
+
+.btn-top:hover {
+    cursor: pointer;
+}
+
+.btn-top:active {
+    box-shadow: inset -1px 1.5px 0 #b5aeae;
+    font-size: 0.65rem;
+    font-style: italic;
+
+}
+
+/* CONTAINER HEADER */
+
+/* MAIN */
+
+
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Varela Round", sans-serif;
+
+}
+
+.fm-functions {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.fm-text-login {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 200px;
+}
+
+.form-input {
+    /* Div */
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d1cbcb;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-login {
+    /* Input */
+    height: 40px;
+    width: 90%;
+    background-color: #f5f5f5;
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+
+}
+
+.input-login:focus {
+    outline: none;
+}
+
+.form-input:focus-within {
+    border-color: #b700ff;
+}
+
+
+
+.form-password-functions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 12px;
+}
+
+.password-function {
+    width: 50%;
+    padding: 2px;
+    display: flex;
+}
+
+#show-password-text {
+    padding-left: 5px;
+
+}
+
+.forgot-password-function {
+    display: flex;
+    justify-content: right;
+    padding-right: 2px;
+
+}
+
+.form-text-or {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.or-bar {
+    height: 1px;
+    width: 40%;
+    background-color: #b0b3b8;
+}
+
+.or-text {
+    color: #b0b3b8;
+}
+
+
+.form-log-in-button {
+    width: 100%;
+
+}
+
+.btn-log-in {
+    width: 100%;
+    background-color: #b700ff;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 0 #8f06c4;
+    color: #f5f5f5;
+    font-family: "Paytone One", sans-serif;
+    font-size: 16px;
+
+    ;
+
+}
+
+.btn-log-in:hover {
+    cursor: pointer;
+
+}
+
+.btn-log-in:active {
+    box-shadow: inset -4px 4px 0 #8f06c4;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.button-site {
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f5;
+    border: 1px solid #d1cbcb;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.form-facebook-google {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-option {
+    width: 45%;
+    text-align: center;
+    display: flex;
+
+
+}
+
+
+.button-site {
+    display: flex;
+    align-items: center;
+    font-family: "Paytone One", sans-serif;
+    padding-left: 15%;
+    box-shadow: -1px 1px 0px #b5aeae;
+}
+
+.button-site:hover {
+    cursor: pointer;
+
+}
+
+.button-site:active {
+    box-shadow: inset -1px 1px 0 #b5aeae;
+    font-size: 0.9rem;
+    font-style: italic;
+    /* border: 1px solid #b5aeae; */
+
+}
+
+
+.span-text {
+    position: relative;
+    bottom: 6%;
+}
+
+
+
+.btn-facebook {
+    color: #3D5A98;
+
+
+}
+
+.btn-google {
+    color: #00AAD4;
+
+}
+
+.logo-site {
+    position: relative;
+    width: 20px;
+}
+
+.ctn-main {
+    height: 100vh;
+
+
+}
+
+
+
+
+
+/* MAIN */
+
+/* FOOTER */
+
+.footer-content {
+    background-color: #5d5b5e;
+    color: #ffffff;
+
+}
+
+
+/* INPUT */
+.fm-footer-contact {
+    /* DIV */
+    width: 70%;
+    height: 45px;
+    border: 1px solid #4b4747;
+    border-radius: 6px;
+    background-color: #8b8686;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-input {
+
+    height: 90%;
+    width: 90%;
+    background-color: transparent;
+    font: 50%;
+    font-family: "Varela Round", sans-serif;
+    padding-left: 20px;
+
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+.footer-input::placeholder {
+    color: #222525;
+}
+
+.footer-content {
+    padding: 8%;
+    font-family: "Varela Round", sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titles-footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 130%;
+
+}
+
+.ft-informations {
+    padding-top: 5%;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itens-inf {
+    font-size: 80%;
+}
+
+.made-by {
+    text-align: center;
+}
+
+.submit {
+    height: 100%;
+    background-color: #969791;
+    border-radius: 7px;
+
+
+}
+
+.footer-button {
+    /* Button */
+
+    width: 50px;
+}
+
+#submit-footer-button-imagen {
+    height: 80%;
+}
+
+.made-by {
+    padding: 3px;
+    background-color: #484b4b;
+    color: #ffffff;
+    font-size: 70%;
+}

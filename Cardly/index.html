@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    
+    <link rel="stylesheet" href="css/getStarted/style.css" />
+
+   
+    <title>Teste</title>
+
+</head>
+<body>
+
+    <!-- header -->
+    <header class="head">
+        <div class="container">
+            Cardly
+        </div>
+    </header>
+    
+    <!-- Main -->
+    <main>
+        <section class="swiper">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="text d-block w-100 p-5">
+                            <img src="images/getStartedPage/1.png" alt="Icon">
+                           
+                            <p class="text">Choose your target language and embark on a journey.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text d-block w-100 p-5">
+                            <img src="images/getStartedPage/2.png" alt="Icon">
+                         
+                            <p class="text">Connect with a global community of language learners.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text d-block w-100 p-5">
+                            <img src="images/getStartedPage/3.png" alt="Icon">
+                            
+                            <p class="text">Dive into immersive learning with daily interactions.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text d-block w-100 p-5">
+                            <img src="images/getStartedPage/4.png" alt="Icon">
+                          
+                            <p class="text">Post, share, and grow your language skills together.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text d-block w-100 p-5">
+                            <img src="images/getStartedPage/5.png" alt="Icon">
+                           
+                            <p class="text">Break language barriers with community support.</p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-footer">
+            <a href="loginPage.html" class="button">Let's Get Started!</a>
+        </div>
+    </footer>
+
+    <!--  Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        
+        var swiper = new Swiper('.mySwiper', {
+            
+            pagination: {
+                el: '.swiper-pagination',  
+                dynamicBullets: true,      
+            },
+           
+            navigation: {
+                nextEl: '.swiper-button-next', 
+                prevEl: '.swiper-button-prev', 
+            },
+        });
+    </script>
+    
+    
+</body>
+</html>
